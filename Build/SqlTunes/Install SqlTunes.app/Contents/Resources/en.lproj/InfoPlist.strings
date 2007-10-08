@@ -1,0 +1,4 @@
+CFBundleName = "Install SqlTunes";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "Install SqlTunes version 1.0 Copyright 2007 Robert Pufky";
+NSHumanReadableCopyright = "Copyright 2007 Robert Pufky.";

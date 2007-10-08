@@ -1,0 +1,4 @@
+CFBundleName = "engine";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "engine version 1.0 Copyright 2007 Robert Pufky";
+NSHumanReadableCopyright = "Copyright 2007 Robert Pufky.";

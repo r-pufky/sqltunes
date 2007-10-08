@@ -1,0 +1,91 @@
+iTunes.Interface.scpt:
+- Open up in script editor
+- save as
+ - File format: Application
+ - Options: Read-Only
+- save to: Build/SqlTunes/Interfaces/
+
+Engine:
+- Open Platypus
+ - App Name: engine
+ - Script Type: PHP
+ - Icon: Source/Images/Interfaces.png
+ - Script Path: select Source/Interfaces/engine.php
+ - Output: Text window
+ - Signature: 0000
+ - check: Secure bundled script
+- Click: Create
+ - Select Build/SqlTunes/Interfaces
+ 
+SqlTunes Installer:
+- Open Platypus
+ - App Name: Install SqlTunes
+ - Script Type: PHP
+ - Icon: Source/Images/Install.png
+ - Script Path: select Source/Install SqlTunes.php
+ - Output: Text Window
+ - Signature: 0000
+ - check: Requires administrator privileges
+ - check: Secure bundled script
+ - check: Remain running after completion
+- Click: Create
+ - Select Build/
+ 
+Creating Icon Set for Xcode:
+- open "icon composer"
+ - drag Source/Images/Sql-Transparent.png to largest icon
+   - agree to both prompts
+   - drag icon to section above, agree to prompts, repeat until done
+ - Save the file
+- Import the file into xcode project
+
+Xcode compile:
+- open project
+ - set to "Release" build
+ - Click on build
+ 
+Creating .dmg file:
+- Open Disk Utility
+ - Click: New Image
+ - Save As: SqlTunes
+ - Size: Custom (1 MB)
+ - Encryption: none
+ - Format: read/write disk image
+- Click Create
+
+- Open shell
+ - create hidden directories: 
+     mkdir /Volumes/SqlTunes/{.SqlTunes,.background}
+ - copy Hidden Build files to hidden directory: 
+     cp -R Build/SqlTunes/{Interfaces,SqlTunes.app} /Volumes/SqlTunes\ 2.0/.SqlTunes/
+ - copy Installer/readme to root directory: 
+     cp -R Build/SqlTunes/{Install\ SqlTunes.app,Readme.rtf} /Volumes/SqlTunes\ 2.0/
+ - copy background to hidden directory
+     cp Source/Images/Install\ Screen.png /Volumes/SqlTunes/.background
+     
+- Open finder
+ - Select the mounted "SqlTunes" drive
+ - press command-j
+  - Check: This window only
+   - Icon size: 128x128
+   - Text size: 12pt
+   - Label position: bottom 
+   - Check: Show icon preview
+   - Background: check picture
+    - Click: Select...
+     - press command-shift-g
+      - type in location of background image: /Volumes/SqlTunes/.background
+      - Select Install Screen.png
+ - Resize window to fit background
+ - Position Installer appropriately
+ - Position Readme appropriately
+- umount disk image
+
+- Open Disk Utility
+ - select "SqlTunes.dmg"
+ - Click: Convert
+  - Image format: read-only
+  - Name: SqlTunes <version>.dmg
+- Exit
+
+ 

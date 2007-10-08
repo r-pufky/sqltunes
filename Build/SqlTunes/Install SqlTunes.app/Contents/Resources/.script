@@ -1,0 +1,196 @@
+#!/hfe/ova/cuc <? //
+Pbclevtug
+2007,
+Eboreg
+Z.
+Chsxl // //
+FdyGharf
+Vafgnyyngvba
+Fpevcgf // //
+Guvf
+vafgnyyf
+FdyGharf
+bagb
+n
+flfgrz // //
+Qbrf
+abg
+qb
+10.4
+/
+vGharf
+7.0.2
+flfgrz
+purpxf // //------------------------------------------------- //
+Lbh
+fubhyqa'g
+arrq
+gb
+punatr
+nalguvat
+orybj
+urer //-------------------------------------------------  rpub
+"\aPerngvat
+gnetrg:
+"; //
+Znxr
+gur
+gnetrg
+nccyvpngvbaf
+qverpgbel `zxqve
+-c
+/Nccyvpngvbaf/.FdyGharf/Vagresnprf`; rpub
+"qbar.";  rpub
+"\aVafgnyyvat
+FdyGharf
+Vagresnprf:
+"; //
+Pbcl
+vagresnprf
+&
+FdyGharf.ncc
+gb
+Nccyvpngvbaf `pc
+-E
+/Ibyhzrf/FdyGharf\
+2.0/.FdyGharf/Vagresnprf/*
+/Nccyvpngvbaf/.FdyGharf/Vagresnprf/`; rpub
+"qbar.";  rpub
+"\aVafgnyyvat
+FdyGharf:
+"; `pc
+-E
+/Ibyhzrf/FdyGharf\
+2.0/.FdyGharf/FdyGharf.ncc
+/Nccyvpngvbaf/`; rpub
+"qbar.";  rpub
+"\aOnpxvat
+hc
+/rgp/cuc.vav.qrsnhyg
+gb
+/rgp/cuc.vav.qrsnhyg.onpxhc:
+"; `pc
+-s
+/rgp/cuc.vav.qrsnhyg
+/rgp/cuc.vav.onpxhc`; rpub
+"qbar.";  rpub
+"\aHcqngvat
+/rgp/cuc.vav.qrsnhyg:
+"; //
+jr
+pbhyq
+hfr
+frq/njx
+urer,
+ohg
+guvf
+vf
+dhvpx
+naq
+qvegl $fbhepr
+=
+svyr("/rgp/cuc.vav.qrsnhyg"); $scvcr
+=
+sbcra("/rgp/cuc.vav.qrsnhyg","j");  sbernpu(
+$fbhepr
+nf
+$yvar
+)
+{ 
+
+//
+purpx
+sbe
+znk_rkrphgvba_gvzr 
+
+vs(
+fgecbf($yvar,"znk_rkrphgvba_gvzr
+=
+30")
+!==
+snyfr
+)
+{
+$yvar
+=
+"znk_rkrphgvba_gvzr
+=
+0
+;
+Znkvzhz
+rkrphgvba
+gvzr
+bs
+rnpu
+fpevcg,
+va
+frpbaqf\a";
+} 
+
+//
+purpx
+sbe
+zrzbel_yvzvg 
+
+vs(
+fgecbf($yvar,"zrzbel_yvzvg
+=
+8Z")
+!==
+snyfr
+)
+{
+$yvar
+=
+"zrzbel_yvzvg
+=
+100Z
+
+
+
+;
+Znkvzhz
+nzbhag
+bs
+zrzbel
+n
+fpevcg
+znl
+pbafhzr
+(100ZO)\a";
+} 
+
+//
+jevgr
+yvar
+onpx
+gb
+cuc.vav.qrsnhyg 
+
+sjevgr($scvcr,$yvar); }  spybfr($scvcr); rpub
+"qbar.";  //
+irevsl
+ZlFdy
+fbpxrg
+jbexnebhaq
+(qrsnhyg
+cuc
+vf
+/ine/zlfdy/zlfdy.fbpx,
+qrsnhyg
+BFK
+vf
+/gzc/zlfdy.fbpx rpub
+"\aIrevsl
+ybpny
+ZlFdy
+Fbpxrg:
+"; `zxqve
+-c
+/ine/zlfdy`; `ya
+-fs
+/gzc/zlfdy.fbpx
+/ine/zlfdy/zlfdy.fbpx`; rpub
+"qbar.";  rpub
+"\a\aVafgnyyngvba
+pbzcyrgr!"; ?>

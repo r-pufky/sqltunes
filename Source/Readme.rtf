@@ -1,0 +1,92 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf410
+{\fonttbl\f0\fnil\fcharset77 PartyLetPlain;\f1\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww11380\viewh11740\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc\pardirnatural
+
+\f0\fs96 \cf0 SqlTunes 2.0\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc\pardirnatural
+
+\f1\fs24 \cf0 Copyright 2007, Robert Pufky\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 \ul \ulc0 Purpose:\ulnone \
+	This was written to export all my track data to a format that could be imported into any standard \
+	mysql database that supports UTF-8.  With the data ported to a real database, possibilities become 	endless for other system scripts, as well as displaying track information on your webserver for the 	song you are currently playing.  You imagination is your limit once the data is in a standard db 	format.  \
+\
+\ul Requirements:\ulnone \
+	OS X 10.4+\
+	iTunes 7.1+\
+	A running MySql Database somewheres (and a user with full privileges on a database ;) )\
+	A magic carpet\
+\
+\ul Installation:\ulnone \
+	Simple: double click the installer, type in your password, wait.  A window should come up 	describing what the installer is doing.  After the installation is finished, you can launch SqlTunes 	by clicking on the SqlTunes application in your Applications folder.\
+\
+\ul Running:\ulnone \
+	1) Uh, click \ul SqlTunes\ulnone  in the Applications directory.  \
+\
+	2) Type in your MySql DB connection information.*\
+\
+	3) Press Enter.\
+		If prompted to open "engine" click "open".  This is the engine to process your songs.\
+\
+	4) Have beer.  Wait for finish.\
+\
+	* A database must already exist, with the user specified having full access to it.  Design decision.\
+\
+\ul Notes:\ulnone \
+	This processes songs at a rate of about 2.5 songs per second*, so large libraries can take a while 	to export.  Please note that you will most likely not be able to use your system during this time due 	to the way iTunes responses to system calls.  Try launching it before you go to bed.\
+\
+	A logfile will automatically be opened after a successful run, containing information about the \
+	process.  You can change the logging level via the main screen, however, bumping to the next \
+	logging level drops processing efficiency about 0.7 songs/sec.\
+\
+		This means that running in full debug mode will drop performance to about 1 song/sec.  The \
+		resulting log file will also become exponentially bigger in size.  For example, a 10,000 song\
+		library had the following logfile sizes (with no errors):\
+\
+		Normal: 	1KB\
+		Verbose: 	350KB\
+		Debug:	41.7MB\
+\
+		I suggest only running the other modes if you are running into errors and need to report a\
+		bug.\
+\
+	You should probably check your iTunes database too :)\
+\
+	* Assumes you are connecting to a local database.  A remote database will probably be slower.\
+\
+\ul System Modifications:\
+\ulnone 	This installation will modify the following lines in your /etc/php.ini.default file:\
+\
+		max_execution_time = 30;\
+		memory_limit = 8M;\
+\
+	You shouldn't need to worry about this, unless you are running production stuff on this system 	(which, needless to say, you shouldn't be doing.  Seriously.).\
+\
+	This will also patch your system for the php/MySql bug between OS X versions:\
+\
+		ln -sf /tmp/mysql.sock /var/mysql/mysql.sock\
+\
+	Think of this not only as a db dump for iTunes, but a bug fix for PHP/MySql/OS X!\
+\
+\ul Legal Issues:\ulnone \
+	You may use this program for personal use only!  You may NOT reverse engineer or 	disassemble the program in any way.  \
+	\
+	I hold \ul NO RESPONSIBILITY\ulnone  for any damages, hardware, software, data or any other damages not 	aforementioned here.  This is a \ul USE AT YOUR OWN RISK\ulnone  software package, and you should take 	appropriate measures to avoid data loss.  By launching any file on this image other than this read-	me, you accept that you claim 100% responsibility for anything that happens to you, your system, 	midgets, ketchup, canned air, bananas, and popcorn bags.  You release the author of this software 	from any damages that may be incurred.\
+\
+	iTunes icon copyright 2007, Apple Inc. - www.apple.com\
+	SQL text copyright 2007, Mysql - www.mysql.com\
+\
+	Don't steal music.\
+\
+\ul Known Issues:\
+\ulnone 	Video Kind data type cannot be exported outside of iTunes because it is a constant.  I'm looking 	into a fix for this now.\
+\
+\ul Future Improvements:\ulnone \
+	Exports of playlists to databases\
+	Video Kind fix\
+\
+\ul Previous Versions:\ulnone \
+	1.0: Inital release, dumped to mysql-formatted input file (iTunes 7.0.2)}

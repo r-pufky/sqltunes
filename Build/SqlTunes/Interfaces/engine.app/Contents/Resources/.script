@@ -1,0 +1,1733 @@
+#!/hfe/ova/cuc <? //
+Pbclevtug
+2007,
+Eboreg
+Z.
+Chsxl // //
+FdyGharf
+Ratvar // //
+Guvf
+ratvar
+jvyy
+rkcbeg
+lbhe
+vGharf
+cynlyvfg
+gb
+n
+ZlFdy
+qngnonfr //
+Vg
+erdhverf
+gung
+n
+svyr
+jvgu
+fdy
+perqragvnyf
+or
+perngrq
+(sebz
+gur
+znva
+vagresnpr) // //
+Guvf
+gura
+pna
+or
+vzcbegrq
+gb
+nal
+zlfdy
+qo
+gung
+fhccbegf
+HGS8! // //
+Cyrnfr
+abgr:
+vGharf
+7.1
+naq
+BF
+K
+10.4
+erdhverq! // //------------------------------------------------- //
+Lbh
+fubhyqa'g
+arrq
+gb
+punatr
+nalguvat
+orybj
+urer //------------------------------------------------- //
+perngr
+svyr
+cvcr
+naq
+vgharf
+genpx $vGharfGenpx
+=
+arj
+genpx();  //
+bcra
+ybt
+svyr
+(vs
+jr
+pna'g,
+nhgbzngvpnyyl
+snvy) vs(
+!$ybt
+=
+sbcra("/gzc/FdyGharf.ybt","j")
+)
+{
+qvr("Pbhyq
+abg
+bcra
+FdyGharf
+ybt
+svyr.");
+}  //
+vavg
+perqragvnyf
+neenl
+naq
+pbaarpg
+gb
+ZlFdy
+QO $fgnegGvzr
+=
+vavg($perqragvnyf
+=
+neenl(),
+$yvax);  rpub
+"Bcravat
+vGharf...
+(Lbh
+pna
+zvavzvmr
+vGharf
+jura
+vg
+bcraf)
+"; //
+teno
+gur
+gbgny
+genpx
+pbhag
+sebz
+vGharf $genpxf
+=
+fge_ercynpr("\a","",@`/hfe/ova/bfnfpevcg
+/Nccyvpngvbaf/.FdyGharf/Vagresnprf/vGharf.Vagresnpr.ncc
+pbhag
+2>
+/qri/ahyy`); vs(
+!vf_ahzrevp($genpxf)
+)
+{
+jybt("Vainyvq
+ahzore
+bs
+genpxf
+erghearq.",gehr,gehr);
+} rpub
+"qbar.\a";  //
+tb
+guebhtu
+nyy
+gur
+genpxf
+va
+gur
+vGharf
+yvoenel sbe(
+$v
+=
+1;
+$v
+<=
+$genpxf;
+$v++
+)
+{ 
+
+//
+qhzc
+qngn
+sbe
+gung
+genpx 
+
+@`/hfe/ova/bfnfpevcg
+/Nccyvpngvbaf/.FdyGharf/Vagresnprf/vGharf.Vagresnpr.ncc
+$v
+2>&1
+/qri/ahyy`; 
+
+ 
+
+//
+Ybnq
+gur
+vGharf
+qhzc,
+qhzc
+gur
+ybnq
+ernq
+vs
+jr
+ner
+ybttvat
+vg 
+
+$vGharfGenpx->frgQngn(trgQhzc($perqragvnyf["Ybt"])); 
+
+ 
+
+fjvgpu(
+$perqragvnyf["Ybt"]
+)
+{ 
+
+	pnfr
+"Qroht":
+{
+jybt($vGharfGenpx->qroht(),snyfr,snyfr);
+} 
+
+	pnfr
+"Ireobfr":
+{ 		cevags("\a%06.2s%%
+%6q
+%6q
+|
+%f
+-
+%f",($v/$genpxf)*100,$v,$vGharfGenpx->trgQngnonfrVQ(),$vGharfGenpx->trgNegvfg(),$vGharfGenpx->trgGenpxAnzr());
+
+	 		jybt($v
+.
+"
+"
+.
+$vGharfGenpx->trgQngnonfrVQ()
+.
+"
+"
+.
+$vGharfGenpx->trgNegvfg()
+.
+"
+-
+"
+.
+$vGharfGenpx->trgGenpxAnzr(),snyfr,snyfr);
+
+	 
+
+	}
+oernx; 
+
+	pnfr
+"Abezny":
+{
+cevags("\a%06.2s%%
+%f
+-
+%f",($v/$genpxf)*100,$vGharfGenpx->trgNegvfg(),$vGharfGenpx->trgGenpxAnzr());
+}
+oernx; 
+
+} 
+ 
+
+//
+cresbez
+aba-sngny
+dhrel
+ba
+ZlFdy
+QO 
+
+dhrel($vGharfGenpx->trgDhrel(),snyfr); }  //
+ybt
+gur
+fhzznel
+fgngf $cebprffGvzr
+=
+gvzr()-$fgnegGvzr; jybt($genpxf
+.
+"
+cebprffrq,
+gbgny
+cebprffvat
+gvzr:
+"
+.
+$cebprffGvzr
+.
+"
+frpbaqf.
+
+Cebprffvat
+engr:
+"
+.
+ebhaq($genpxf/$cebprffGvzr,
+2)
+.
+"
+fbatf/frp.",snyfr,snyfr);  //
+pybfr
+qhzc
+svyr spybfr($ybt);  //
+pyrnahc pyrna();    //
+Shapgvba:
+trgQhzc //
+Erdhverf:
+fgevat
+-
+ybt
+yriry;
+bayl
+"Qroht"
+yriry
+znxrf
+vg
+ybt
+nal
+bhgchg
+(fyvragyl) //
+Ergheaf:
+neenl
+bs
+xrl
+=>
+inyhr
+cnvef //
+Checbfr:
+Cnefrf
+ybnqrq
+svyr
+vagb
+na
+neenl
+bs
+xrl
+=>
+inyhr
+cnvef
+pbagnvavat
+qngn Shapgvba
+trgQhzc($ybt)
+{ 	$svyr
+=
+ybnqgenpx(); 	$qngn
+=
+neenl(); 	 	//
+sbe
+rnpu
+yvar
+va
+svyr 	sbernpu(
+$svyr
+nf
+$yvar
+)
+{ 		//
+vs
+jr
+ner
+abg
+qrsvavat
+n
+inevnoyr
+(ab
+|]=>
+va
+yvar) 		//
+ABGR:
+vs
+n
+|]=>
+nccrnef
+naljurer
+va
+gur
+vGharf
+vasbezngvba,
+guvf
+jvyy
+snvy 		//
+xabja
+oht,
+ohg
+fubhyq
+abg
+unccra
+hayrff
+fbzrbar
+vf
+qbvat
+fbzrguvat
+junpxl
+jvgu
+gurve
+ylevpf 		vs(
+fgecbf($yvar,"|]=>")
+===
+snyfr
+)
+{ 			//
+gura
+jr
+ner
+nqqvat
+gb
+gur
+ynfg
+inevnoyr 			$qngn[$ynfgIne]
+=
+$qngn[$ynfgIne]
+.
+$yvar; 		}
+ryfr
+{ 			//
+teno
+gur
+inevnoyr
+naq
+qngn 			$arjIne
+=
+rkcybqr("|]=>",$yvar); 			$ynfgIne
+=
+$arjIne[0]; 			 			fjvgpu($ynfgIne)
+{ 				pnfr
+"gybatqrfpevcgvba"
+:
+{ 						//
+ybat
+qrfpevcgvba,
+erzbir
+arjyvar
+vs
+ab
+qngn 						vs(
+egevz($arjIne[1])
+==
+""
+)
+{ 							$arjIne[1]
+=
+""; 						}	 					}
+oernx; 				pnfr
+"gylevpf"
+:
+{ 						//
+ylevpf,
+nyjnlf
+xrrc
+arjyvarf
+(va
+bgure
+jbeqf,
+qb
+abguvat) 					}
+oernx; 				qrsnhyg
+:
+{ 						//
+ryfr,
+erzbir
+arjyvar 						$arjIne[1]
+=
+egevz($arjIne[1]); 						}
+oernx; 			} 			 			//
+chfu
+qngn
+bagb
+neenl 			$qngn[$ynfgIne]
+=
+$arjIne[1]; 		} 	} 	 	//
+bayl
+cevag
+neenl
+qngn
+vs
+va
+qroht
+zbqr 	vs(
+$ybt
+==
+"Qroht"
+)
+{ 		$bhgchg
+=
+"\a----trgQhzc----"; 		sbernpu(
+$qngn
+nf
+$xrl
+=>
+$inyhr
+)
+{ 			$bhgchg
+.=
+"\a"
+.
+$xrl
+.
+"=>'"
+.
+$inyhr
+.
+"'"; 		} 		jybt($bhgchg
+.
+"\a---------------",snyfr,snyfr); 	}  	erghea
+$qngn; }  //
+Shapgvba:
+ybnqgenpx() //
+Erdhverf:
+abguvat //
+Ergheaf:
+neenl
+pbagnvavat
+yvarf
+bs
+svyr //
+Checbfr:
+pbairegf
+ZNP
+svyr
+sbezng
+gb
+HAVK
+svyr
+sbezng,
+naq
+ybnqf
+vagb
+neenl //
+
+
+
+
+
+
+
+
+
+Perngrq
+sbe
+rnfr
+bs
+bcgvzvmngvba
+yngre Shapgvba
+ybnqgenpx()
+{ 	//
+Jr
+npghnyyl
+trg
+orggre
+cresbeznapr
+bhg
+bs
+guvf,
+bccbfrq
+gb
+ernqvat,
+ercynpvat,
+naq
+ 	//
+hfvat
+rkcybqr
+gb
+trg
+n
+svyr
+neenl
+(rkcybqr
+vf
+cebonoyl
+gur
+ubyq
+hc
+urer) 	//
+grfg:
+GE:
+100-45frp,200-91frp,500-216frp;
+cvcr:
+100-47frp,200-90frp,500-221frp 	 	//
+pbaireg
+svyr
+gb
+HAVK
+naq
+ybnq
+vg 	`ge
+'\e'
+'\a'
+<
+/gzc/FdyGharf.genpx
+>
+/gzc/FdyGharf.havk`; 	//
+ybnq
+vagb
+neenl
+naq
+erghea 	erghea
+svyr("/gzc/FdyGharf.havk"); }  //
+Shapgvba:
+pyrna() //
+Erdhverf:
+abguvat //
+Ergheaf:
+abguvat //
+Checbfr:
+Pyrnaf
+grzcbenel
+svyrf
+hfrq,
+naq
+ynhapurf
+svaqre
+bcrarq
+gb
+gur
+qhzc
+svyr Shapgvba
+pyrna()
+{ 	//
+erzbir
+vGharf
+genpx
+&
+havk
+pbairefvbaf 	`ez
+-s
+/gzc/FdyGharf.genpx;ez
+-s
+/gzc/FdyGharf.havk`; 	//
+Perngr
+&
+zbir
+qhzcsvyr
+gb
+fhoqverpgbel
+va
+svaqre
+(sbe
+crbcyr
+jub
+pna'g
+svaq
+vg) 	`zxqve
+-c
+/gzc/FdyGharf;zi
+/gzc/FdyGharf.ybt
+/gzc/FdyGharf/FdyGharf.ybt`; 	//
+ynhapu
+svaqre
+va
+gur
+onpxtebhaq 	//`/hfe/ova/bfnfpevcg
+/Nccyvpngvbaf/.FdyGharf/Vagresnprf/vGharf.Vagresnpr.ncc
+pyrna
+2>&1
+/qri/ahyy
+&`; 	`bcra
+/gzc/FdyGharf/FdyGharf.ybt
+&`; }  //
+Shapgvba:
+vavg() //
+Checbfr:
+Vavgnyvmrf
+perqragvnyf,
+naq
+bcraf
+ybt
+svyr //
+Erdhverf:
+neenl
+-
+ubyqf
+hfre
+perqragvnyf
+sbe
+ZlFdy //
+
+
+
+
+
+
+
+
+
+
+yvax
+-
+ubyqf
+rfgnoyvfurq
+ZlFdy
+yvax //
+Ergheaf:
+qngr
+-
+gur
+gvzr
+gur
+cebtenz
+jnf
+fgnegrq shapgvba
+vavg(&$perqragvnyf,&$yvax)
+{ 	$gvzr
+=
+gvzr(); 	 	//
+bcra
+perqragvny
+svyr,
+pbaireg
+gb
+HAVK,
+ernq
+inevnoyrf
+(1
+cre
+yvar),
+qrfgebl
+svyr 	$qngn
+=
+rkcybqr("\e",`png
+/gzc/.pbaarpg.fdygharf`); 	`ez
+-s
+/gzc/.pbaarpg.fdygharf`; 	 	//
+sbe
+rnpu
+yvar
+va
+svyr 	sbernpu(
+$qngn
+nf
+$yvar
+)
+{ 		//
+oernx
+hc
+gbxraf
+naq
+fgber 		$arjIne
+=
+rkcybqr("=",$yvar); 		//
+frg
+gur
+nccebcevngr
+cnefrq
+perqragvny 		$perqragvnyf[$arjIne[0]]
+=
+egevz($arjIne[1]); 	}  	//
+nggrzcg
+gb
+pbaarpg
+gb
+gur
+qngnonfr,
+vs
+snvyrq,
+qvr 	vs(
+!$yvax
+=
+zlfdy_pbaarpg($perqragvnyf["Freire"],$perqragvnyf["Hfreanzr"],$perqragvnyf["Cnffjbeq"])
+)
+{ 		jybt("Qngnonfr
+pbaarpgvba
+reebe:
+Hanoyr
+gb
+pbaarpg
+gb
+Zlfdy
+freire
+ng
+'"
+.
+$perqragvnyf["Freire"]
+.
+"'
+jvgu
+hfre
+'"
+.
+$perqragvnyf["Hfreanzr"]
+.
+"'\a"
+.
+zlfdy_reebe(),gehr,gehr); 	} 	//
+nggrzcg
+gb
+fryrpg
+gur
+qngnonfr,
+vs
+snvyrq,
+qvr 	vs(
+!zlfdy_fryrpg_qo($perqragvnyf["Qngnonfr"],$yvax)
+)
+{
+ 		jybt("Pbhyq
+abg
+fryrpg
+qngnonfr
+'"
+.
+$perqragvnyf["Qngnonfr"]
+.
+"'
+sbe
+hfr.\a"
+.
+zlfdy_reebe(),gehr,gehr); 	}  	//
+Qebc
+gur
+rkvfgvat
+gnoyr
+vs
+vg
+rkvfgf,
+vs
+snvyrq,
+qvr 	dhrel("qebc
+gnoyr
+vs
+rkvfgf
+genpxf",gehr);  	//
+perngr
+gur
+arj
+gnoyr
+dhrel 	$dhrel
+=
+"perngr
+gnoyr
+genpxf
+(vq
+vag(11)
+abg
+ahyy
+nhgb_vaperzrag,"
+.
+ 		"gnyohz
+inepune(255)
+qrsnhyg
+'',"
+. 		"gnyohznegvfg
+inepune(255)
+qrsnhyg
+'',"
+. 		"gnegvfg
+inepune(255)
+qrsnhyg
+'',"
+. 		"govgengr
+fznyyvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gobbxznex
+sybng
+qrsnhyg
+0.0,"
+. 		"gobbxznexnoyr
+gvalvag(1)
+qrsnhyg
+0,"
+. 		"gocz
+fznyyvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gpngrtbel
+inepune(255)
+qrsnhyg
+'',"
+. 		"gpbzzrag
+inepune(255)
+qrsnhyg
+'',"
+. 		"gpbzcvyngvba
+gvalvag(1)
+qrsnhyg
+0,"
+. 		"gpbzcbfre
+inepune(255)
+qrsnhyg
+'',"
+. 		"gqngnonfrvq
+vag(11)
+qrsnhyg
+0,"
+. 		"gqngrnqqrq
+qngrgvzr
+qrsnhyg
+'0000-00-00
+00:00:00',"
+. 		"gqrfpevcgvba
+inepune(255)
+qrsnhyg
+'',"
+. 		"gqvfppbhag
+gvalvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gqvfpahzore
+gvalvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gqhengvba
+sybng
+hafvtarq
+qrsnhyg
+0,"
+. 		"granoyrq
+gvalvag(1)
+qrsnhyg
+0,"
+. 		"grcvfbqrvq
+inepune(255)
+qrsnhyg
+'',"
+. 		"grcvfbqrahzore
+gvalvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"grd
+inepune(255)
+qrsnhyg
+'',"
+. 		"gsvavfu
+sybng
+qrsnhyg
+0.0,"
+. 		"gtncyrff
+gvalvag(1)
+qrsnhyg
+0,"
+. 		"gtraer
+inepune(255)
+qrsnhyg
+'',"
+. 		"gtebhcvat
+inepune(255)
+qrsnhyg
+'',"
+. 		"gxvaq
+inepune(255)
+qrsnhyg
+'',"
+. 		"gybatqrfpevcgvba
+inepune(255)
+qrsnhyg
+'',"
+. 		"gylevpf
+grkg
+qrsnhyg
+'',"
+. 		"gzbqvsvpngvbaqngr
+qngrgvzr
+qrsnhyg
+'0000-00-00
+00:00:00',"
+. 		"gcynlrqpbhag
+vag(11)
+qrsnhyg
+0,"
+. 		"gcynlrqqngr
+qngr
+qrsnhyg
+'0000-00-00',"
+. 		"gcbqpnfg
+gvalvag(1)
+qrsnhyg
+0,"
+. 		"gengvat
+gvalvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gfnzcyrengr
+zrqvhzvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gfrnfbaahzore
+gvalvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gfuhssynoyr
+gvalvag(1)
+qrsnhyg
+0,"
+. 		"gfxvccrqpbhag
+vag(11)
+qrsnhyg
+0,"
+. 		"gfxvccrqqngr
+qngrgvzr
+qrsnhyg
+'0000-00-00
+00:00:00',"
+. 		"gfubj
+inepune(255)
+qrsnhyg
+'',"
+. 		"gfbegnyohz
+inepune(255)
+qrsnhyg
+'',"
+. 		"gfbegnegvfg
+inepune(255)
+qrsnhyg
+'',"
+. 		"gfbegnyohznegvfg
+inepune(255)
+qrsnhyg
+'',"
+.
+ 		"gfbeganzr
+inepune(255)
+qrsnhyg
+'',"
+. 		"gfbegpbzcbfre
+inepune(255)
+qrsnhyg
+'',"
+. 		"gfbegfubj
+inepune(255)
+qrsnhyg
+'',"
+. 		"gfvmr
+vag(11)
+hafvtarq
+qrsnhyg
+0,"
+. 		"gfgneg
+sybng
+qrsnhyg
+0.0,"
+. 		"ggvzr
+gvzr
+qrsnhyg
+'00:00:00',"
+. 		"ggenpxpbhag
+gvalvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"ggenpxahzore
+gvalvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"ghacynlrq
+
+gvalvag(1)
+qrsnhyg
+0,"
+. 		"givqrbxvaq
+inepune(11)
+qrsnhyg
+'abar',"
+. 		"gibyhzrnqwhfgzrag
+fznyyvag
+qrsnhyg
+0,"
+. 		"glrne
+fznyyvag
+hafvtarq
+qrsnhyg
+0,"
+. 		"gybpngvba
+inepune(255)
+qrsnhyg
+'',"
+. 		"ganzr
+inepune(255)
+qrsnhyg
+'',"
+. 		"gcrefvfgragvq
+inepune(255)
+qrsnhyg
+'',"
+. 		"CEVZNEL
+XRL
+(vq)
+)
+RATVAR=ZlVFNZ
+QRSNHYG
+PUNEFRG=HGS8"; 		 	//
+nggrzcg
+gb
+perngr
+gur
+arj
+gnoyr,
+vs
+snvyrq,
+qvr 	dhrel($dhrel,gehr); 	 	erghea
+$gvzr; }  //
+Shapgvba:
+dhrel() //
+Checbfr:
+cresbezf
+n
+ZlFdy
+Dhrel,
+jvgu
+aba-sngny
+ybttvat //
+Erdhverf:
+fgevat
+-
+ZlFdy
+Dhrel
+gb
+cresbez //
+
+
+
+
+
+
+
+
+
+
+obbyrna
+-
+gehr
+vs
+snvyrq
+dhrel
+vf
+sngny //
+Ergheaf:
+Cnff-guebhtu
+bs
+zlfdy_dhrel() shapgvba
+dhrel($dhrel,$sngny)
+{ 	tybony
+$yvax; 	tybony
+$perqragvnyf;  
+	//
+nggrzcg
+gb
+fryrpg
+gur
+qngnonfr
+ba
+gur
+erfbhepr,
+bgurejvfr
+reebe 
+
+
+
+vs(
+!zlfdy_fryrpg_qo($perqragvnyf["Qngnonfr"],$yvax)
+)
+{
+jybt("Pbhyq
+abg
+fryrpg
+qngnonfr
+'"
+.
+$perqragvnyf["Qngnonfr"]
+.
+"'
+sbe
+hfr.\a"
+.
+zlfdy_reebe(),gehr,gehr);
+}  	//
+cersbez
+gur
+dhrel
+naq
+erghea
+gur
+erfhygf 	$erf
+=
+zlfdy_dhrel($dhrel,$yvax); 	 	//
+vs
+jr
+rapbhagrerq
+n
+ZlFdy
+reebe 	vs(
+zlfdy_reebe()
+)
+{ 		//
+ybt
+vg,
+naq
+znxr
+vg
+sngny
+vs
+vg
+vf
+n
+"sngny"
+dhrel 		vs(
+$sngny
+)
+{ 			jybt("Dhrel:
+"
+.
+$dhrel
+.
+"\a\aReebe:
+"
+.
+zlfdy_reebe(),gehr,gehr); 		}
+ryfr
+{ 			//
+vs
+vg
+vf
+abg
+n
+sngny
+dhrel,
+onpx-bss
+QO
+sbe
+1
+frpbaq. 			jybt("Dhrel:
+"
+.
+$dhrel
+.
+"\a\aReebe:
+"
+.
+zlfdy_reebe(),snyfr,gehr); 			fyrrc(1); 		} 	} 	 	//
+erghea
+erfhygf
+bs
+dhrel 	erghea
+$erf; }  //
+Shapgvba:
+jybt() //
+Checbfr:
+Jevgrf
+n
+fcrpvsvrq
+zrffntr
+gb
+gur
+ybtsvyr //
+Erdhverf:
+fgevat
+-
+zrffntr
+gb
+ybt //
+
+
+
+
+
+
+
+
+
+
+obbyrna
+-
+gehr
+vs
+sngny
+ybt
+zrffntr //
+
+
+
+
+
+
+
+
+
+
+obbyrna
+-
+gehr
+vs
+gur
+ybt
+zrffntr
+fubhyq
+or
+cevagrq
+gb
+fperra //
+Ergheaf:
+abar shapgvba
+jybt($zrffntr,$sngny,$ivfnoyr)
+{ 	tybony
+$ybt;  	//
+rpub
+gur
+zrffntr
+gb
+gur
+fperra 	vs(
+$ivfnoyr
+)
+{ 		rpub
+$zrffntr; 	}  	//
+Vs
+jr
+ner
+n
+sngny
+reebe,
+nyjnlf
+ybt 	vs(
+$sngny
+)
+{ 		//
+jevgr
+gur
+ybt,
+pybfr
+vg,
+bcra
+svaqre,
+fgbc
+rkrphgvba. 		sjevgr($ybt,"\a-------------SNGNY-REEBE------------\a"
+.
+$zrffntr
+.
+"\a------------------------------------"); 		spybfr($ybt); 		pyrna(); 		qvr(); 	}
+ryfr
+{ 		//
+jevgr
+gur
+ybt
+zrffntr 		sjevgr($ybt,"\a"
+.
+$zrffntr); 	} }   //------------------------------------------------- //
+vGharf
+7.1
+genpx
+pynff //------------------------------------------------- //
+Guvf
+vf
+onfvpnyyl
+na
+neenl
+jenccre
+jvgu
+fhcre-njrfbzr
+grkg
+cebprffvat
+pncnovyvgvrf
+naq
+shapgvbaf pynff
+genpx
+{ 	//
+ubyqf
+nyy
+genpx
+vasbezngvba 	ine
+$genpxVasb
+=
+neenl();  	//
+Shapgvba:
+genpx 	//
+Checbfr:
+pbafgehpgbe
+-
+Vavgnyvmrf
+gur
+qngn
+neenl 	Shapgvba
+genpx()
+{ 		//hafrg($guvf->$genpxVasb); 		//
+orpnhfr
+neenlf
+ner
+orvat
+shpxgneqrq. 		sbernpu(
+$guvf->genpxVasb
+nf
+$xrl
+=>
+$inyhr
+)
+{ 			$guvf->genpxVasb[$xrl]
+=
+""; 		} 	} 	 	//
+Shapgvba:
+erfrgGenpx() 	//
+Erdhverf:
+abguvat 	//
+Checbfr:
+nyvnf
+bs
+pbafgehpgbe,
+sbe
+hfr
+qhevat
+rkrphgvba 	Shapgvba
+erfrgGenpx()
+{ 		$guvf->genpx(); 	} 	 	//
+Shapgvba:
+qroht() 	//
+Erdhverf:
+abguvat 	//
+Ergheaf:
+n
+fgevat
+pbagnvavat
+pheerag
+neenl
+vasbezngvba
+sbeznggrq
+sbe
+bhgchg. 	//
+Checbfr:
+cevagf
+gur
+qngn
+neenl
+sbe
+qrohttvat
+checbfrf 	Shapgvba
+qroht()
+{ 		$bhgchg
+=
+"\a-----qroht-----"; 		sbernpu(
+$guvf->genpxVasb
+nf
+$xrl
+=>
+$inyhr
+)
+{ 			$bhgchg
+.=
+"\a"
+.
+$xrl
+.
+"=>'"
+.
+$inyhr
+.
+"'"; 		} 		erghea
+$bhgchg
+.
+"\a---------------"; 	} 	 	//
+Shapgvba:
+trgNegvfg() 	//
+Erdhverf:
+abguvat 	//
+Ergheaf:
+gur
+pheerag
+negvfg
+anzr,
+vs
+vg
+rkvfgf 	//
+Checbfr:
+Sbe
+sbeznggvat
+ybt
+qngn 	Shapgvba
+trgNegvfg()
+{ 		erghea
+$guvf->genpxVasb["gnegvfg"]; 	}  	//
+Shapgvba:
+trgGenpxAnzr() 	//
+Erdhverf:
+abguvat 	//
+Ergheaf:
+gur
+pheerag
+genpx
+anzr,
+vs
+vg
+rkvfgf 	//
+Checbfr:
+Sbe
+sbeznggvat
+ybt
+qngn 	Shapgvba
+trgGenpxAnzr()
+{ 		erghea
+$guvf->genpxVasb["ganzr"]; 	}	 	 	//
+Shapgvba:
+trgQngnonfrVQ() 	//
+Erdhverf:
+abguvat 	//
+Ergheaf:
+gur
+pheerag
+qngnonfrVQ,
+vs
+vg
+rkvfgf 	//
+Checbfr:
+Sbe
+sbeznggvat
+ybt
+qngn 	Shapgvba
+trgQngnonfrVQ()
+{ 		erghea
+$guvf->genpxVasb["gqngnonfrvq"]; 	} 	 	//
+Shapgvba:
+frgQngn(neenl) 	//
+Erdhverf:
+Na
+neenl
+jvgu
+be
+jvgubhg
+qngn 	//
+Checbfr:
+Gnxrf
+enj
+neenl
+qngn
+naq
+pbairegf
+gb
+zlfdy
+fnsr
+qngn. 	//
+
+
+
+
+
+
+
+
+
+Guvf
+cregnvaf
+gb
+zngpuvat
+zlfdy
+qngnglcrf,
+abg
+zlfdy-fnsr
+rfpncvat 	//
+
+
+
+
+
+
+
+
+
+Vs
+neenl
+xrlf
+qb
+abg
+zngpu,
+vg
+jvyy
+abg
+or
+vzcbegrq. 	Shapgvba
+frgQngn($arjQngn)
+{ 		//
+erfrg
+genpx
+qngn 		$guvf->erfrgGenpx(); 		//
+tb
+guebhtu
+nyy
+gur
+arj
+qngn 		sbernpu(
+$arjQngn
+nf
+$xrl
+=>
+$inyhr
+)
+{ 			//
+vs
+gur
+inyhr
+vf
+oynax,
+qba'g
+nqq
+gb
+genpxVasb
+ 			//
+Qrsnhygf
+ner
+vafregrq
+ivn
+zlfdy
+(cyhf
+guvf
+vf
+snfgre
+:)
+) 			vs(
+$inyhr
+!=
+AHYY
+&&
+$inyhr
+!=
+""
+)
+{ 				$guvf->genpxVasb[$xrl]
+=
+$inyhr; 			} 		} 	} 	 	//
+Shapgvba:
+trgDhrel() 	//
+Erdhverf:
+Abguvat 	//
+Ergheaf:
+HGS8
+zlfdy-fnsr
+vafreg
+dhrel
+sbe
+qhzc
+/
+rkrphgvba 	Shapgvba
+trgDhrel()
+{ 		$dhrel
+=
+"vafreg
+vagb
+genpxf
+frg
+"; 		 		//
+tb
+guebhtu
+bhe
+qngn
+naq
+jevgr
+dhrel 		sbernpu(
+$guvf->genpxVasb
+nf
+$xrl
+=>
+$inyhr
+)
+{ 			//
+Vs
+gur
+inyhr
+vf
+frg 			vs(
+$inyhr
+!=
+""
+)
+{ 				//
+purpx
+gb
+frr
+vs
+jr
+ner
+n
+qngr
+(fcrpvny
+pbairefvba
+arrqrq) 				fjvgpu($xrl)
+{ 					//
+pbaireg
+gb
+shyy
+qngrf
+sbe
+qo
+vzcbeg 					pnfr
+"gqngrnqqrq": 					pnfr
+"gzbqvsvpngvbaqngr": 					pnfr
+"gfxvccrqqngr":
+{ 							$inyhr
+=
+zlfdy_rfpncr_fgevat(qngr("LzqUvf",fgegbgvzr($inyhr))); 						}
+oernx; 					//
+pbaireg
+gb
+cnegvny
+qngrf
+sbe
+qo
+vzcbeg 					pnfr
+"gcynlrqqngr"
+:
+{ 							$inyhr
+=
+zlfdy_rfpncr_fgevat(qngr("Lzq",fgegbgvzr($inyhr))); 						}
+oernx; 					//
+ivqrbxvaq
+pnaabg
+or
+rkcbegrq
+pbeerpgyl
+lrg
+(pbafgnag
+->
+rkcbegvat
+sebz
+furyy
+=
+onq) 					pnfr
+"givqrbxvaq"
+:
+{ 							$inyhr
+=
+"abar"; 						}
+oernx; 					qrsnhyg:
+$inyhr
+=
+zlfdy_rfpncr_fgevat($inyhr);
+oernx; 				} 				 				//
+perngr
+dhrel 				$dhrel
+.=
+$xrl
+.
+"='"
+.
+$inyhr
+.
+"',"; 			} 		} 		 		//
+ercynpr
+ynfg
+,
+jvgu
+;
+naq
+erghea 		erghea
+fhofge($dhrel,0,fgeecbf($dhrel,","))
+.
+";"; 	} } ?> 
